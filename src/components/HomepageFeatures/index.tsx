@@ -11,20 +11,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '개요',
+    title: '세계관 및 주요 인물',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        AI 에이전트의 정의, 발전 역사, 현재 기술 수준을 알아봅니다.
+        덴지와 포치타, 공안 대마 특이과, 지배의 악마와 묵시록의 4기사
       </>
     ),
   },
   {
-    title: '핵심 기술',
+    title: '전투 체계 및 메커니즘',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        LLM 기반 에이전트, 멀티모달 에이전트, 자율 에이전트 아키텍처를 분석합니다.
+        악마의 계약 규칙, 악마의 윤회와 지옥, 무기 인간(하이브리드)의 특성
       </>
     ),
   },
